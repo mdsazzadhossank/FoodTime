@@ -1,0 +1,33 @@
+@use "../component/Navbar";
+@import "../variable/var";
+
+#banner {
+    padding-top: 208px;
+    padding-bottom: 140px;
+
+    h1 {
+        width: 681px;
+        font-size: 65px;
+        font-weight: 700px;
+        font-family: $merienda;
+        color: $primarycolor;
+
+        span {
+            color: $seconderycorlor;
+        }
+    }
+
+    .banner-content{
+        margin-top: 27px;
+        p{
+            font-size: 24px;
+            font-weight: 600;
+            color: $Paragraph;
+        }
+    }
+
+    .banner-food {
+        width: 535px;
+
+    }
+}

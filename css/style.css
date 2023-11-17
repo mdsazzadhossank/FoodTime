@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol {
+  margin: 0;
+  padding: 0;
+}
+
+.main_menu {
+  position: relative;
+  border-bottom: 1px solid #3F3F3F;
+}
+.main_menu ul {
+  gap: 70px;
+}
+.main_menu ul li a {
+  font-size: 18px;
+  font-weight: 500;
+  color: #3F3F3F;
+}
+.main_menu ul li .nav_about {
+  font-size: 40px;
+  color: #3F3F3F;
+}
+.main_menu ul .nav_lang {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.main_menu::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #6B9142 !important;
+  opacity: 0.1;
+  z-index: -1;
+}
+.main_menu .menu_btn {
+  display: flex;
+  gap: 23px;
+  align-items: center;
+  justify-content: center;
+}
+.main_menu .menu_btn .login_btn {
+  padding: 12px 50px;
+  border-radius: 225px;
+  background-color: #396C03;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+}
+.main_menu .menu_btn .cart_btn {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #396C03;
+  color: #ffffff;
+  padding: 15px 16px;
+  font-size: 23px;
+}
+
+#banner {
+  padding-top: 208px;
+  padding-bottom: 140px;
+}
+#banner h1 {
+  width: 681px;
+  font-size: 65px;
+  font-weight: 700px;
+  font-family: "Merienda", cursive;
+  color: #396C03;
+}
+#banner h1 span {
+  color: #FF8B00;
+}
+#banner .banner-content {
+  margin-top: 27px;
+}
+#banner .banner-content p {
+  font-size: 24px;
+  font-weight: 600;
+  color: #676767;
+}
+#banner .banner-food {
+  width: 535px;
+}
+
+#banner {
+  background: url(../images/banner_image.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}/*# sourceMappingURL=style.css.map */

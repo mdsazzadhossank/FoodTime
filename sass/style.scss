@@ -1,0 +1,10 @@
+@use "./base/common";
+@use "./pages/home";
+
+
+#banner{
+    background: url(../images/banner_image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
